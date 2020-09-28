@@ -1,4 +1,5 @@
 <template>
+  vue3 组合api holleworld.vue 测试
   <button>{{ count }}</button>
   {{ doubleCount }}
   {{ msg }}
