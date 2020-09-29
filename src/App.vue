@@ -16,7 +16,11 @@
   <!-- <CustomRender /> -->
 
   <!-- v-model -->
-  <Model/>
+  <!-- <Model/> -->
+
+
+  <!-- Todos 示例-->
+  <Todos/>
 </template>
 
 <script>
@@ -27,11 +31,13 @@ import FragmentsComp from './components/FragmentsComp.vue'
 import Emits from './components/Emits.vue'
 // import CustomRender from './components/CustomRender.vue'
 import Model from './components/Model.vue'
+import Todos from './components/Todos.vue'
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,TeleportComp,FragmentsComp,Emits,Model
+    HelloWorld,TeleportComp,FragmentsComp,Emits,Model,Todos
   },
   methods:{
     onClick(){
