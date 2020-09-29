@@ -11,7 +11,8 @@ import { computed, reactive, onMounted, onUnmounted, ref, toRefs, watch } from "
 export default {
   name: "HelloWorld",
   setup() {
-    // count相关逻辑
+    // count相关逻辑 
+    // reactive 定义响应式数据
     // const data = reactive({
     //   count: 1,
     //   doubleCount: computed(()=> data.count*10 )
